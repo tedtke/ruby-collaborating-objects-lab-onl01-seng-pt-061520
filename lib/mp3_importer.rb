@@ -8,7 +8,7 @@ class MP3Importer
   end
   
   def files
-    Dir.each_child("spec/fixtures/mp3s") {|x|  .mp3}
+    mp3 = Dir.new("spec/fixtures/mp3s") 
     # binding.pry
   end
   
