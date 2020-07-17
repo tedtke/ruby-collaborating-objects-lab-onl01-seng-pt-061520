@@ -8,7 +8,7 @@ class MP3Importer
   end
   
   def files
-    Dir.entries ("spec/fixtures/mp3s").select{|i| i = ".mp3"}
+    Dir.entries ("spec/fixtures/mp3s/.mp3")
     binding.pry
   end
   
