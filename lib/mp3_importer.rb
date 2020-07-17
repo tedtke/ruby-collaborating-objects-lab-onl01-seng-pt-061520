@@ -1,4 +1,5 @@
 #has many songs 
+require 'pry'
 class MP3Importer 
   attr_accessor :path
   # Dir.entries ("mp3s")
@@ -8,6 +9,7 @@ class MP3Importer
   
   def files
     Dir.entries ("spec/fixtures/mp3s")
+    binding.pry
   end
   
 end
