@@ -9,6 +9,7 @@ class MP3Importer
   
   def files
     mp3 = Dir.new("spec/fixtures/mp3s") 
+    mp3.child
     # binding.pry
   end
   
