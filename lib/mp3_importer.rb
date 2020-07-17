@@ -1,9 +1,9 @@
 #has many songs 
-class MP3Importer <
-  attr_accessor :parse
+class MP3Importer 
+  attr_accessor :path
   
-  def initialize(parse)
-    @parse = parse
+  def initialize(path)
+    @path = path
     
   end
   
