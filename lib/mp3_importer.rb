@@ -13,7 +13,7 @@ class MP3Importer
     # binding.pry
   end
   
-  def import 
+  def import (file_name)
     @path = Song.new_by_filename(file_name)
   end
   
