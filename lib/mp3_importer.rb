@@ -8,7 +8,7 @@ class MP3Importer
   end
   
   def files
-    Dir.entries ("spec/fixtures/mp3s")
+    Dir.each_child("spec/fixtures/mp3s")
     # binding.pry
   end
   
