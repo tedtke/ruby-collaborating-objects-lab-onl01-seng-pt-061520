@@ -8,7 +8,7 @@ class MP3Importer
   end
   
   def files
-    Dir.entries ("spec/fixtures/mp3s, encoding: .mp3")
+    Dir.entries ("spec/fixtures/mp3s")
     # binding.pry
   end
   
